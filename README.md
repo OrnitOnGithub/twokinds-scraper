@@ -31,3 +31,15 @@ Run the main script
 python3 main.py
 ```
 
+## Compatibility
+
+Works on MacOS (tested)
+
+Works on Linux, though packages need to be installed through your distro's package manager. For example on Fedora:
+```
+sudo dnf install python3-beautifulsoup4
+sudo dnf install python3-lxml
+sudo dnf install python3-certifi
+```
+
+Never tested on Windows
